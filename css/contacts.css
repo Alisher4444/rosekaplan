@@ -1,0 +1,78 @@
+.contacts{
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(../img/7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom;
+	margin-top: -10px;
+}
+.contacts-info-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts-info h3{
+    color: #ffffff;
+    font-size: 35px;
+    margin: 20px auto;
+}
+.contacts-info-txt p{
+    color: #ffffff;
+	font-size: 20px;
+}
+
+.contacts-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts-tel{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.contacts-tel a{
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 1.5;
+    transition: 0.2s ease-out;
+	font-size: 20px;
+}
+
+.contacts-tel a:hover{
+    color: red;
+    transition: 0.2s ease-in;
+    text-shadow: 0 0 1px #ededed;
+}
+.contacts-map{
+    width: 60%;
+    height: 70vh;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+    .contacts-map p {
+        color: white;
+        margin: 0 auto;
+    }
+
+
+@media screen and (max-width: 449px){
+    .contacts-tel {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .contacts-map {
+        width: 100%;
+        height: 55vh;
+    }
+    
+    
+}
